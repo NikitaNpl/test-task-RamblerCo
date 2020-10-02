@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/test-task-RamblerCo/static/css/main.5f361e03.chunk.css",
+    "main.js": "/test-task-RamblerCo/static/js/main.d565733b.chunk.js",
+    "main.js.map": "/test-task-RamblerCo/static/js/main.d565733b.chunk.js.map",
+    "runtime-main.js": "/test-task-RamblerCo/static/js/runtime-main.bd1c9780.js",
+    "runtime-main.js.map": "/test-task-RamblerCo/static/js/runtime-main.bd1c9780.js.map",
+    "static/js/2.e1daa956.chunk.js": "/test-task-RamblerCo/static/js/2.e1daa956.chunk.js",
+    "static/js/2.e1daa956.chunk.js.map": "/test-task-RamblerCo/static/js/2.e1daa956.chunk.js.map",
+    "index.html": "/test-task-RamblerCo/index.html",
+    "precache-manifest.908d09c9dcd1751972b0a288190b617a.js": "/test-task-RamblerCo/precache-manifest.908d09c9dcd1751972b0a288190b617a.js",
+    "service-worker.js": "/test-task-RamblerCo/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/test-task-RamblerCo/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.e1daa956.chunk.js.LICENSE.txt": "/test-task-RamblerCo/static/js/2.e1daa956.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bd1c9780.js",
+    "static/js/2.e1daa956.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.d565733b.chunk.js"
+  ]
+}
