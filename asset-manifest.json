@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/test-task-RamblerCo/static/css/main.7f3f8a91.chunk.css",
+    "main.css": "/test-task-RamblerCo/static/css/main.0d3c2566.chunk.css",
     "main.js": "/test-task-RamblerCo/static/js/main.c8aaee29.chunk.js",
     "main.js.map": "/test-task-RamblerCo/static/js/main.c8aaee29.chunk.js.map",
     "runtime-main.js": "/test-task-RamblerCo/static/js/runtime-main.bd1c9780.js",
@@ -8,9 +8,9 @@
     "static/js/2.8b929113.chunk.js": "/test-task-RamblerCo/static/js/2.8b929113.chunk.js",
     "static/js/2.8b929113.chunk.js.map": "/test-task-RamblerCo/static/js/2.8b929113.chunk.js.map",
     "index.html": "/test-task-RamblerCo/index.html",
-    "precache-manifest.342406e68b05b838d5806735725b1442.js": "/test-task-RamblerCo/precache-manifest.342406e68b05b838d5806735725b1442.js",
+    "precache-manifest.7684687fef621394d151b43a503ddf96.js": "/test-task-RamblerCo/precache-manifest.7684687fef621394d151b43a503ddf96.js",
     "service-worker.js": "/test-task-RamblerCo/service-worker.js",
-    "static/css/main.7f3f8a91.chunk.css.map": "/test-task-RamblerCo/static/css/main.7f3f8a91.chunk.css.map",
+    "static/css/main.0d3c2566.chunk.css.map": "/test-task-RamblerCo/static/css/main.0d3c2566.chunk.css.map",
     "static/js/2.8b929113.chunk.js.LICENSE.txt": "/test-task-RamblerCo/static/js/2.8b929113.chunk.js.LICENSE.txt",
     "static/media/12.jpg": "/test-task-RamblerCo/static/media/12.c6690ff1.jpg",
     "static/media/13.jpg": "/test-task-RamblerCo/static/media/13.606ecc99.jpg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.bd1c9780.js",
     "static/js/2.8b929113.chunk.js",
-    "static/css/main.7f3f8a91.chunk.css",
+    "static/css/main.0d3c2566.chunk.css",
     "static/js/main.c8aaee29.chunk.js"
   ]
 }
