@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3dfc1a0dea9280f44bfe4712e57ed894",
+    "revision": "1018700c43868a21d7d096481edf81b8",
     "url": "/test-task-RamblerCo/index.html"
   },
   {
-    "revision": "2d58a5198a09661d1e5a",
-    "url": "/test-task-RamblerCo/static/css/main.0d3c2566.chunk.css"
+    "revision": "933bc711b5de296da3f6",
+    "url": "/test-task-RamblerCo/static/css/main.d407ca71.chunk.css"
   },
   {
-    "revision": "fa6cd0efe47569dc89be",
-    "url": "/test-task-RamblerCo/static/js/2.8b929113.chunk.js"
+    "revision": "9bc6aa932ca7fb4dfbef",
+    "url": "/test-task-RamblerCo/static/js/2.e8abb6ec.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/test-task-RamblerCo/static/js/2.8b929113.chunk.js.LICENSE.txt"
+    "url": "/test-task-RamblerCo/static/js/2.e8abb6ec.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2d58a5198a09661d1e5a",
-    "url": "/test-task-RamblerCo/static/js/main.c8aaee29.chunk.js"
+    "revision": "933bc711b5de296da3f6",
+    "url": "/test-task-RamblerCo/static/js/main.9ebd9258.chunk.js"
   },
   {
     "revision": "6cb83e1112c173904402",
