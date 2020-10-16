@@ -36,7 +36,6 @@
     }
 
     &-profile-info {
-      
       width: calc(100% - 70px);
       display: flex;
       flex-wrap: wrap;
@@ -45,15 +44,19 @@
       margin-left: 10px;
 
       .info__name-location {
+        width: 80%;
         display: flex;
         flex-direction: column;
 
         .name {
+          text-overflow: ellipsis;
+          overflow: hidden;
           font-weight: 600;
         }
       }
 
       .info__shooting-time {
+        width: auto;
         color: rgb(155, 155, 155);
       }
     }
@@ -97,7 +100,7 @@
   &__info {
     margin: 15px;
     font-size: 15px;
-    overflow: auto;
+    overflow-y: auto;
 
     .info-likes {
       display: flex;
@@ -114,7 +117,10 @@
     }
 
     .info-text {
-      
+      text-overflow: ellipsis;
+      overflow: hidden;
+      max-height: 100%;
+      overflow-y: auto;
       margin: 10px 0 20px;
     }
 

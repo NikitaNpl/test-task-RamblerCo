@@ -2,46 +2,10 @@ import React from 'react';
 
 import heart from '../../assets/img/love.svg';
 import './index.scss';
-
-
+import {getTimePosted} from '../../helper/getTimePosted'
 
 const Cards = ({cards}) => {
     console.log(cards)
-
-
-    function getTimePosted(currentDate) {
-      let differenceDate = getTimeDifference(currentDate);
-      return dateConverter(differenceDate);
-    }
-
-    function getTimeDifference(currentDate) {
-      let pastDate = new Date(currentDate.toString())
-      let differenceDate = new Date().getTime() - pastDate.getTime();
-      
-      return (new Date(differenceDate));
-    }
-
-    function dateConverter(date) {
-      let month = date.getMonth();
-      let days = date.getDate();
-      let hours = date.getHours();
-      let min = date.getMinutes();
-      let sec = date.getSeconds();
-
-      if (month) {
-        return month + 'mo';
-      } if (days) {
-        return days + 'd';
-      } if (hours) {
-        return hours + 'h'
-      } if (min) {
-        return min + 'min';
-      } if (sec) {
-        return sec + 's'
-      }
-
-      return;
-    }
 
     return (
       <>
@@ -75,7 +39,7 @@ const Cards = ({cards}) => {
                 />
                 <span>{item.views.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ")}</span>
               </div>
-                {item.description && <div className="info-text">{item.description['_content']}</div>}
+                {item.description && <div className="info-text" dangerouslySetInnerHTML={{__html: item.description['_content']}}></div>}
             </div>
           </div>
         ))}

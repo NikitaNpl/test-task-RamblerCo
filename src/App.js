@@ -8,7 +8,7 @@ const perPage = 10;
 const apiUrlFromTopPhotos = `https://www.flickr.com/services/rest/?method=flickr.interestingness.getList&api_key=${apiKey}&per_page=${perPage}&format=json&nojsoncallback=1`;
 
 function App() {
-  const [idPhotos, setIdPhotos] = useState(null);
+  const [idPhotos, setIdPhotos] = useState([]);
   const [infoPhotos, setInfoPhotos] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
 
@@ -28,24 +28,25 @@ function App() {
   }, []);
 
   useEffect(() => {
-    if (!idPhotos) {
+    if (idPhotos === false) {
       return;
     }
-    idPhotos.map((item) => {
+    idPhotos.forEach((item) => {
       axios.get(`https://www.flickr.com/services/rest/?method=flickr.photos.getInfo&api_key=${apiKey}&photo_id=${item}&format=json&nojsoncallback=1`)
       .then((response) =>  {
         if(response.status === 200) {
           let {id, secret, server, farm, owner, description, dates, views, location} = response.data.photo;
           setInfoPhotos(lastInfo => [...lastInfo, {id, secret, server, farm, owner, description, dates, views, location}])
         }
-      }).then(() => setIsLoading(true));
+      })
+      .then(() => setIsLoading(true));
     })
   }, [idPhotos]);
   
   return (
     <>
       <div className="list-cards">
-        {isLoading && infoPhotos.length === perPage ? <Cards cards={infoPhotos}/> : 'Загрузка....'}
+        {isLoading && infoPhotos.length === perPage ? <Cards cards={infoPhotos}/> : 'Загрузка...'}
       </div>
     </>
   );
